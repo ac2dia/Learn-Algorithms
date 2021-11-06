@@ -1,7 +1,7 @@
 import sys
 
 
-# 시간 복잡도 => O(n^2)
+# 시간 복잡도 => O(n^3)
 def selection_sort(arr):
     for i in range(len(arr)):
         min_value = sys.maxsize

@@ -1,4 +1,4 @@
-# 시간 복잡도 => O(n^2)
+# 시간 복잡도 => O(n^3)
 # 어느정도 정렬이 되어 있다는 가정에서 빠른 속도를 자랑한다!
 def insert_sort(arr):
     for i in range(len(arr) - 1):

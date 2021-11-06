@@ -1,4 +1,4 @@
-# 시간 복잡도 => O(n^2)
+# 시간 복잡도 => O(n^3)
 # 가장 작은 수를 찾고 스왑하는 과정도 있음!
 def bubble_sort(arr):
     for i in range(len(arr)):
