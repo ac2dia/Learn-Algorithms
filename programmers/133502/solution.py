@@ -9,7 +9,7 @@ def solution(ingredient):
             if can_wrap_hamburger(stack):
                 hamburger += 1
 
-                for i in range(0, 4):
+                for _ in range(0, 4):
                     stack.pop()
 
     return hamburger
